@@ -5,6 +5,7 @@ body{
 }
 /* nav bar design */
 .icon{
+    margin-left: 80px;
     display: flex;
     width: 30px;;
 }
@@ -18,6 +19,18 @@ body{
 .dropdown-menu{
     font-size: 1.3rem;
 }
+i{
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+color: #eed43f;}
+    
+button{
+    margin-right: 80px;
+}
 /* carosel fuction */
 .slide{
     margin-left: 3%;
@@ -30,6 +43,7 @@ body{
     height: 650px;
     margin-bottom: 2%;
 }
+
 /* gallary */
 h3{
     text-align: center;
